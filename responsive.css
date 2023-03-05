@@ -1,0 +1,157 @@
+@media (max-width:1248px) {
+  .overview-text {
+    top: 32%;
+    left: 40%;
+    width: 60%px;
+  }
+}
+
+@media (max-width:1175px) {
+  .gallery-section {
+    display: block;
+  }
+
+  .g-text-box {
+    display: block;
+  }
+
+  .gallery-img,
+  .gallery-img-2 {
+    height: 440px;
+  }
+}
+
+@media (max-width:1090px) {
+  .overview-text {
+    top: 30%;
+    left: 20%;
+    width: 70%;
+    margin: auto 0;
+  }
+}
+
+
+@media (max-width:1000px) {
+  html {
+    font-size: 60%;
+  }
+
+  header {
+    height: 70vh;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .feature-box {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .feature {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .speed {
+    display: block;
+  }
+
+  .kmph,
+  .gears,
+  .seconds {
+    margin: 8rem auto;
+  }
+
+  .overview-text {
+    top: 35%;
+  }
+
+  .overview-1 .overview-2 {
+    height: 400px;
+  }
+}
+
+
+@media (max-width:813px) {
+  html {
+    font-size: 50%;
+  }
+
+  .car-features-text-box {
+    display: block;
+  }
+
+  .car-feature {
+    margin-top: 4rem;
+    width: 80%;
+  }
+
+  .audi-png {
+    width: 90%;
+    height: 20%;
+  }
+
+}
+
+@media (max-width:600px) {
+
+  html {
+    font-size: 40%;
+  }
+
+  .text-box {
+    width: 100%;
+  }
+
+  .audi-png {
+    width: 80%;
+    height: 20%;
+  }
+
+  .overview-1,
+  .overview-2 {
+    height: 350px;
+  }
+
+  .overview-text {
+    top: 23%;
+  }
+
+
+}
+
+@media (max-width:500px) {
+  .flex {
+    display: block;
+  }
+
+  .overview-text-2 {
+    padding: 12rem 5rem 0;
+  }
+}
+
+@media (max-width:490px) {
+  .car-features-text-box {
+    width: 100%;
+  }
+
+  .gap {
+    column-gap: none;
+  }
+
+  .car-feature-2 {
+    width: 100%;
+    margin-top: 4rem;
+  }
+}
+
+
+@media (max-width:370px) {
+
+  .hero-text {
+    padding-left: 10rem;
+  }
+
+}
